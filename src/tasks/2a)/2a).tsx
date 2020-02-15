@@ -85,3 +85,6 @@ export const getTeamArticlesDescription = (teamId: number): string => {
 
     return arr.join('\n');
 };
+
+getTeamArticlesDescription(1);
+getTeamArticlesDescription(2);

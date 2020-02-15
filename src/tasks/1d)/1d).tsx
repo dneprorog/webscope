@@ -21,8 +21,5 @@ export const parseNPMVersion = (text: string): iObj => {
     }
 };
 
-console.log('parseNPMVersion =====>', parseNPMVersion('react@16.0.0'));
-console.log(
-    'parseNPMVersion =====>',
-    parseNPMVersion('@webscopeio/react-textarea-autocomplete@4.6.1')
-);
+parseNPMVersion('react@16.0.0');
+parseNPMVersion('@webscopeio/react-textarea-autocomplete@4.6.1');

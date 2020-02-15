@@ -5,6 +5,6 @@ export const unique = (x: number[]): number[] => {
     return [...filterArray];
 };
 
-console.log('unique ======>', unique([1, 2, 3, 3, 4]));
-console.log('unique ======>', unique([1, 2, 2, 3, 4, 5, 3]));
-console.log('unique ======>', unique([]));
+unique([1, 2, 3, 3, 4]);
+unique([1, 2, 2, 3, 4, 5, 3]);
+unique([]);

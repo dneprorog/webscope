@@ -6,6 +6,6 @@ export const last = (x: number[]): number[] | undefined => {
     return [x[x.length - 1]];
 };
 
-console.log('last =====>', last([1, 2, 3]));
-console.log('last =====>', last([1, 2, 3, 4]));
-console.log('last =====>', last([]));
+last([1, 2, 3]);
+last([1, 2, 3, 4]);
+last([]);
