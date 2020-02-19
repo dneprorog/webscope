@@ -2,7 +2,8 @@ export const unique = (x: number[]): number[] => {
     const filterArray: number[] = x.filter(
         (item, index, self) => self.indexOf(item) === index
     );
-    return [...filterArray];
+
+    return filterArray;
 };
 
 unique([1, 2, 3, 3, 4]);
