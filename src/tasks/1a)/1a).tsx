@@ -1,4 +1,4 @@
-export const duplicate = (x: number[]) => {
+export const duplicate = (x: number[]): number[] => {
     return [...x, ...x];
 };
 
